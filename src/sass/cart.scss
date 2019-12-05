@@ -1,0 +1,53 @@
+@import 'public';
+.head{
+    font-size: 14px;
+    color: #343434;
+    height: 42px;
+    line-height: 42px;
+    a{
+        font-size: 14px;
+        color: #343434;
+    }
+    a:hover{
+        color: #f3210a;
+    }
+    .left{
+        float: left;
+        span{
+            margin-right: 20px;
+        }
+        a{
+            margin-right: 18px;
+        }
+    }
+    .right{
+        float: right;
+        position: relative;
+        a{
+            display: inline-block;
+            width: 110px;
+            height: 42px;
+            line-height: 42px;
+            text-align: center;
+        }
+        .right7{
+            margin-left: 50px;
+        }
+        .right2_box{
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            background: #fff;
+            border: 1px solid #999;
+            border-top: none;
+            position: absolute;
+            left: 100px;
+            display: none;
+        }
+    }
+}
+.souSuo_bj{
+    background: #f3210a;
+    height: 70px;
+    width: 100%;
+}
